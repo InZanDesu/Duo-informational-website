@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Fall of the Axis Powers</title>
+    <style>
+    
+        body{ 
+  margin:0px;
+  background-color:grey;
+  color:white;
+}
+
+#background{
+    width:100%;
+    position:relative;
+    z-index:0
+}
+
+#background img{width:100%;}
+
+/* the body fade becomes visible only when the image is bigger than the viewport */
+body::after{
+    background-image:  linear-gradient(to bottom, transparent, Grey);
+    content:'';
+    display:block;
+    height:50px;
+    bottom:0px;
+    position:fixed;
+    width:100%;
+    z-index:-1;
+}
+
+#background::after{
+    background-image:  linear-gradient(to bottom, transparent, Grey);
+    content:'';
+    display:block;
+    height:50px;
+    bottom:0px;
+    position:absolute;
+    width:100%;
+}
+
+
+.bod {
+  text-align: center;
+  font-family: "Times New Roman", Times, Serif;
+     }
+
+  
+    </style>
+    
+</head>
+<div id="background">
+  <span id="Tile"><img src="Big3.jpeg"></span>
+</div>
+
+  
+  <div class="bod">
+    
+    <h2>
+      The Fall of the Axis powers
+    </h2>
+    
+    <p>
+    The Axis powers, consisting primarily of Germany, Italy, and Japan, faced significant defeats during World War II.
+    </p>
+    
+    <h3>
+      The Fall of Germany
+    </h3>
+    
+    <p>
+    Germany's expansionist goals led to the invasion of multiple countries, including Poland, France, and the Soviet Union.
+    However, the turning point came with the Allied forces' successful D-Day invasion in 1944, leading to the liberation of France and the subsequent advance into Germany.
+    </p>
+    
+    <h3>
+      The Fall of Italy
+    </h3>
+    
+    <p>
+    Italy faced internal dissent and military setbacks, leading to the fall of Mussolini's fascist regime in 1943.
+    </p>
+    
+    <h3>
+      The Fall of Japan
+    </h3>
+
+    <p>
+    Japan's expansion in the Pacific was halted by decisive naval battles, such as Midway and Coral Sea.
+    The dropping of atomic bombs on Hiroshima and Nagasaki in August 1945 forced Japan's surrender, marking the end of World War II.
+    </p>
+  </div>
+</body>
+</html>
